@@ -1,0 +1,1 @@
+# bagisto_stored_XSS
