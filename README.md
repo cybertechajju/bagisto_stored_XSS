@@ -85,8 +85,8 @@ The sanitized HTML is then rendered directly to the frontend without proper outp
 #### Step 1: Setup Lab Environment
 ```bash
 # Using Docker (Recommended)
-docker pull webkul/bagisto:2.2.9
-docker run -d -p 8080:80 --name bagisto-lab webkul/bagisto:2.2.9
+docker pull webkul/bagisto:2.3.9
+docker run -d -p 8080:80 --name bagisto-lab webkul/bagisto:2.3.9
 
 # Access Points:
 # Frontend: http://localhost:8080
