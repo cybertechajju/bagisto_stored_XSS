@@ -1,4 +1,4 @@
-# [Stored-XSS] in [Bagisto] <= [v2.2.3]
+# [Stored-XSS] in [Bagisto] <= [v2.3.9]
 ---
 ## BUG Author: [CyberTechAjju]
 ---
@@ -6,7 +6,7 @@
 ---
 - Vendor Homepage: (https://bagisto.com/en/)
 - Software Link: (https://github.com/bagisto/bagisto)
-- Affected Version: [<= v2.2.3]
+- Affected Version: [<= v2.3.9]
 - BUG Author: CyberTechAjju
 
 ### Vulnerability Details
