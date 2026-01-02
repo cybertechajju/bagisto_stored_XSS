@@ -99,6 +99,7 @@ docker run -d -p 8080:80 --name bagisto-lab webkul/bagisto:2.2.3
 2. Enter Email: `admin@example.com`
 3. Enter Password: `admin123`
 4. Click **Sign In**
+<img width="1366" height="663" alt="image" src="https://github.com/user-attachments/assets/ed241dc6-ec84-4dd1-b376-68ef2447f8c2" />
 
 #### Step 3: Navigate to Theme Settings
 1. In the left sidebar, click **Settings**
@@ -115,11 +116,13 @@ docker run -d -p 8080:80 --name bagisto-lab webkul/bagisto:2.2.3
 ```
 
 4. Click **Save** button
+<img width="1366" height="661" alt="image" src="https://github.com/user-attachments/assets/a896efb2-9f13-4bad-81c3-14b79e02138a" />
 
 #### Step 5: Verify XSS Execution
 1. Open a new browser tab or incognito window
 2. Navigate to: `http://localhost:8080/`
 3. **Result:** JavaScript alert box appears displaying cookies
+<img width="1366" height="663" alt="image" src="https://github.com/user-attachments/assets/c84e5a84-d7dd-4227-9206-b5859862fbb9" />
 
 #### Exploitation Result:
 - The XSS payload successfully bypasses the `<script>` tag filter
